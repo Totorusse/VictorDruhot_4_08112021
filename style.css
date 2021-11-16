@@ -457,6 +457,10 @@ nav .caret {
   margin-bottom: 40px;
 }
 
+.size-md{
+  font-size: 20px;
+}
+
 .btn {
   margin: 0 5px 5px 0;
 }
@@ -671,7 +675,7 @@ a {
 }
 
 .hero-bloc-text {
-  font-size: 38px;
+  font-size: 36px;
 }
 
 .hero-bloc-text-sub {
@@ -790,6 +794,11 @@ h4 {
   color: white !important;
   /* changement de couleur car texte non visible */
 }
+
+.bloc-4--text {
+  margin: 0 20px;
+  text-align: center;
+font-size: 24px;}
 
 .btn-atomic-tangerine {
   background: #f3976c;
