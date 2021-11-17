@@ -110,7 +110,6 @@ a:hover {
   font-size: 14px;
 }
 
-
 .d-bloc {
   color: rgba(255, 255, 255, 0.7);
 }
@@ -457,7 +456,7 @@ nav .caret {
   margin-bottom: 40px;
 }
 
-.size-md{
+.size-md {
   font-size: 20px;
 }
 
@@ -795,10 +794,16 @@ h4 {
   /* changement de couleur car texte non visible */
 }
 
+.tc-black {
+  color: black !important;
+  /* changement de couleur de la liste page index car ne respecte pas le contraste minimum */
+}
+
 .bloc-4--text {
   margin: 0 20px;
   text-align: center;
-font-size: 24px;}
+  font-size: 24px;
+}
 
 .btn-atomic-tangerine {
   background: #f3976c;
