@@ -799,6 +799,14 @@ h4 {
   /* changement de couleur de la liste page index car ne respecte pas le contraste minimum */
 }
 
+@media (max-width: 768px) {
+  .max-size-center {
+    max-width: 320px;
+    max-height: 320px;
+    margin: auto;
+  }
+}
+
 .bloc-4--text {
   margin: 0 20px;
   text-align: center;
@@ -849,7 +857,7 @@ h4 {
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation.bmp");
+  background-image: url("img/image-de-presentation.png");
 }
 
 @media (max-width: 1024px) {
